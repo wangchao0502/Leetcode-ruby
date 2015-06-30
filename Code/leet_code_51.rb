@@ -17,7 +17,7 @@ class Leet_Code_51
     result = []
     stack = []
     find_result(n, result, stack)
-    puts result
+    puts result.length
     result
   end
 
@@ -62,4 +62,4 @@ end
 
 obj = Leet_Code_51.new
 
-obj.solve_n_queens(1)
+obj.solve_n_queens(8)
