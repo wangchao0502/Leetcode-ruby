@@ -15,44 +15,40 @@ class Leet_Code_51
   # @return {String[][]}
   def solve_n_queens(n)
     result = []
-    stack = []
-    find_result(n, result, stack)
+    answer = Array.new(n)
+    find_result(n, result, answer, 0)
+    puts result
     puts result.length
     result
   end
 
-  def find_result(n, result, stack)
-    (0...n).each do |i|
-      if check_result(stack, i)
-        stack.push(i)
-        if stack.length == n
-          result.push(show_matrix(stack))
-          stack.pop
-          stack.pop
-          return
-        else
-          find_result(n, result, stack)
+  def find_result(n, result, answer, t)
+    if t >= n
+      result.push(show_matrix(answer))
+    else
+      (0...n).each do |x|
+        answer[t] = x
+        if check_result(answer, x, t)
+          find_result(n, result, answer, t + 1)
         end
       end
     end
-    stack.pop
   end
 
-  def check_result(stack, col)
+  def check_result(answer, col, t)
     # puts "cheack_result: stack:#{stack}, col:#{col}"
-    row = stack.length
-    stack.each_with_index do |x_col, x_row|
-      if x_col == col || x_col - x_row == col - row || x_col + x_row == col + row
+    (0...t).each do |x|
+      if answer[x] == col || (answer[x] - col).abs == (x - t).abs
         return false
       end
     end
     true
   end
 
-  def show_matrix(result)
+  def show_matrix(answer)
     arr = []
-    result.each do |i|
-      str = '.' * result.length
+    answer.each do |i|
+      str = '.' * answer.length
       str[i] = 'Q'
       arr.push(str)
     end
@@ -62,4 +58,4 @@ end
 
 obj = Leet_Code_51.new
 
-obj.solve_n_queens(8)
+obj.solve_n_queens(9)
