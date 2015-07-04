@@ -1,8 +1,8 @@
 class Foo
   def foo
-    "foo"
+    'foo'
   end
   def bar
-    "bar"
+    'bar'
   end
 end
