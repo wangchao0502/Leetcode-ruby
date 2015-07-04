@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Test/leet_code_206_test.rb" line="25" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/Code/leet_code_51_perm.rb" line="25" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9db119-e99b-456f-9f46-3cedde272e98" name="Default" comment="add another solution of eight_queue problem">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/leet_code_51_perm.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/permutation.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/permutation_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CommonTest.iml" afterPath="$PROJECT_DIR$/.idea/CommonTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/leet_code_51.rb" afterPath="$PROJECT_DIR$/Code/leet_code_51.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CommonTest.iws" />
@@ -32,7 +28,8 @@
     <SUITE FILE_PATH="coverage/CommonTest@test_nil__CommonTest.coverage" NAME="test_nil: CommonTest Coverage Results" MODIFIED="1432032024012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="CommonTest" />
     <SUITE FILE_PATH="coverage/CommonTest@permutation.coverage" NAME="permutation Coverage Results" MODIFIED="1435667623468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" MODULE_NAME="CommonTest" />
     <SUITE FILE_PATH="coverage/CommonTest@test_paper_title__CommonTest.coverage" NAME="test_paper_title: CommonTest Coverage Results" MODIFIED="1432100213127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="CommonTest" />
-    <SUITE FILE_PATH="coverage/CommonTest@leet_code_51.coverage" NAME="leet_code_51 Coverage Results" MODIFIED="1435667331775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" MODULE_NAME="CommonTest" />
+    <SUITE FILE_PATH="coverage/CommonTest@leet_code_52.coverage" NAME="leet_code_52 Coverage Results" MODIFIED="1436020373091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" MODULE_NAME="CommonTest" />
+    <SUITE FILE_PATH="coverage/CommonTest@leet_code_51.coverage" NAME="leet_code_51 Coverage Results" MODIFIED="1436019432380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" MODULE_NAME="CommonTest" />
     <SUITE FILE_PATH="coverage/CommonTest@test_123451__CommonTest.coverage" NAME="test_123451: CommonTest Coverage Results" MODIFIED="1435247399025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="CommonTest" />
     <SUITE FILE_PATH="coverage/CommonTest@test_empty_array__CommonTest.coverage" NAME="test_empty_array: CommonTest Coverage Results" MODIFIED="1435244096838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="CommonTest" />
     <SUITE FILE_PATH="coverage/CommonTest@test_one_element_list__CommonTest.coverage" NAME="test_one_element_list: CommonTest Coverage Results" MODIFIED="1432033314859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="CommonTest" />
@@ -40,8 +37,8 @@
     <SUITE FILE_PATH="coverage/CommonTest@test_long_array__CommonTest.coverage" NAME="test_long_array: CommonTest Coverage Results" MODIFIED="1435244109427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="CommonTest" />
     <SUITE FILE_PATH="coverage/CommonTest@Run_test__MyTest___CommonTest__3_.coverage" NAME="Run test 'MyTest': CommonTest (3) Coverage Results" MODIFIED="1435047132306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="CommonTest" />
     <SUITE FILE_PATH="coverage/CommonTest@test_long__CommonTest.coverage" NAME="test_long: CommonTest Coverage Results" MODIFIED="1432099874128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="CommonTest" />
-    <SUITE FILE_PATH="coverage/CommonTest@leet_code_51_perm.coverage" NAME="leet_code_51_perm Coverage Results" MODIFIED="1435670545971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" MODULE_NAME="CommonTest" />
     <SUITE FILE_PATH="coverage/CommonTest@Run_test__MyTest___CommonTest__1_.coverage" NAME="Run test 'MyTest': CommonTest (1) Coverage Results" MODIFIED="1435247403998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="CommonTest" />
+    <SUITE FILE_PATH="coverage/CommonTest@leet_code_51_perm.coverage" NAME="leet_code_51_perm Coverage Results" MODIFIED="1435988136563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" MODULE_NAME="CommonTest" />
     <SUITE FILE_PATH="coverage/CommonTest@Run_test__MyTest___CommonTest__4_.coverage" NAME="Run test 'MyTest': CommonTest (4) Coverage Results" MODIFIED="1435067604988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="CommonTest" />
     <SUITE FILE_PATH="coverage/CommonTest@Run_test__Foo_Test___CommonTest.coverage" NAME="Run test 'Foo_Test': CommonTest Coverage Results" MODIFIED="1432023686281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="CommonTest" />
     <SUITE FILE_PATH="coverage/CommonTest@test_list_with_many_nodes__CommonTest.coverage" NAME="test_list_with_many_nodes: CommonTest Coverage Results" MODIFIED="1432033492223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="CommonTest" />
@@ -59,11 +56,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.47627264">
       <split-first>
         <leaf>
-          <file leaf-file-name="leet_code_52.rb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="leet_code_52.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Code/leet_code_52.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.093655586">
+                  <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -73,17 +70,17 @@
             <entry file="file://$PROJECT_DIR$/Code/leet_code_51.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="64" selection-end-column="21" />
+                  <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="60" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="leet_code_51_perm.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="leet_code_51_perm.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Code/leet_code_51_perm.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6698565">
-                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -92,7 +89,7 @@
           <file leaf-file-name="permutation.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Code/permutation.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.4242425">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
                   <folding />
                 </state>
@@ -106,7 +103,7 @@
           <file leaf-file-name="permutation_test.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Test/permutation_test.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.09569378">
+                <state vertical-scroll-proportion="0.09063444">
                   <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
                   <folding />
                 </state>
@@ -160,11 +157,11 @@
         <option value="$PROJECT_DIR$/Code/leet_code_94.rb" />
         <option value="$PROJECT_DIR$/Test/leet_code_217_test.rb" />
         <option value="$PROJECT_DIR$/Code/leet_code_217.rb" />
-        <option value="$PROJECT_DIR$/Code/leet_code_52.rb" />
-        <option value="$PROJECT_DIR$/Code/leet_code_51.rb" />
-        <option value="$PROJECT_DIR$/Test/permutation_test.rb" />
         <option value="$PROJECT_DIR$/Code/permutation.rb" />
         <option value="$PROJECT_DIR$/Code/leet_code_51_perm.rb" />
+        <option value="$PROJECT_DIR$/Test/permutation_test.rb" />
+        <option value="$PROJECT_DIR$/Code/leet_code_51.rb" />
+        <option value="$PROJECT_DIR$/Code/leet_code_52.rb" />
       </list>
     </option>
   </component>
@@ -224,8 +221,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,10 +236,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Leet_Code_Ruby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,6 +255,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,37 +267,7 @@
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Ruby.leet_code_51_perm">
-    <configuration default="false" name="Run test 'MyTest': CommonTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="CommonTest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/Test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Test/permutation_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.leet_code_52">
     <configuration default="false" name="leet_code_51_perm" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="CommonTest" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -392,6 +355,26 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Code/leet_code_51.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="leet_code_52" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="CommonTest" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Code" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Code/leet_code_52.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -523,19 +506,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'MyTest': CommonTest" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.leet_code_51_perm" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.permutation" />
-      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_123: CommonTest" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.leet_code_51" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.leet_code_51_perm" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.permutation" />
+      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_123: CommonTest" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.leet_code_51" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.leet_code_52" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.leet_code_51_perm" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.permutation" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.leet_code_52" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.leet_code_51" />
         <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_123: CommonTest" />
-        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'MyTest': CommonTest" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.leet_code_51" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.permutation" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.leet_code_51_perm" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +551,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435671778120</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add 52 problem">
+      <created>1436020432530</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1436020432530</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -576,14 +565,14 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16088155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36507937" sideWeight="0.49765626" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29603255" sideWeight="0.4984375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16528925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36419126" sideWeight="0.49765626" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29399797" sideWeight="0.4984375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39984995" sideWeight="0.5023438" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -611,12 +600,13 @@
     <MESSAGE value="add problem 94" />
     <MESSAGE value="add problem 217 51 52" />
     <MESSAGE value="add another solution of eight_queue problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add another solution of eight_queue problem" />
+    <MESSAGE value="add 52 problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 52 problem" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -730,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,30 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Code/leet_code_52.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/permutation_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09569378">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Code/leet_code_51.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="64" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,7 +936,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/permutation.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4242425">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
@@ -982,8 +944,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/leet_code_51_perm.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6698565">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/permutation_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09063444">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/leet_code_51.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="60" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/leet_code_52.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.093655586">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding />
         </state>
       </provider>
