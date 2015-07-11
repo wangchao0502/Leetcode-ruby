@@ -47,9 +47,60 @@ module Leet_Lib
 
   class TreeNode
       attr_accessor :val, :left, :right
-      def initialize(val)
+
+      def initialize(val, left = nil, right = nil)
           @val = val
-          @left, @right = nil, nil
+          @left, @right = left, right
+      end
+
+      def serilaized
+        arr = [self.val]
+        stack = [self]
+        while stack.size > 0
+          arr_tmp = []
+          node = stack.pop
+          [node.right, node.left].each do |x|
+            if x.nil?
+              arr_tmp.push('#')
+            else
+              arr_tmp.push(x.val)
+              stack.push(x)
+            end
+          end
+          arr.concat(arr_tmp.reverse)
+        end
+        # remove last '#'
+        while arr.last == '#'
+          arr.pop
+        end
+        '{' + arr.join(', ') + '}'
+      end
+
+
+      def self.deserialize(str)
+        arr = str.scan(/\d+|#/).collect { |x|
+          if x == '#' then
+            nil
+          else
+            x.to_i
+          end }
+        target = TreeNode.new(arr[0])
+        root = target
+        i = 1
+        stack = [target]
+        while i < arr.length
+          target = stack.pop
+          unless arr[i].nil?
+            target.left = TreeNode.new(arr[i])
+          end
+          unless arr[i + 1].nil?
+            target.right = TreeNode.new(arr[i + 1])
+          end
+          i += 2
+          stack.push(target.right) unless target.right.nil?
+          stack.push(target.left) unless target.left.nil?
+        end
+        root
       end
   end
 end
