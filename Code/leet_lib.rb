@@ -46,61 +46,61 @@ module Leet_Lib
   end
 
   class TreeNode
-      attr_accessor :val, :left, :right
+    attr_accessor :val, :left, :right
 
-      def initialize(val, left = nil, right = nil)
-          @val = val
-          @left, @right = left, right
+    def initialize(val, left = nil, right = nil)
+      @val = val
+      @left, @right = left, right
+    end
+
+    def serilaized
+      arr = []
+      queue = [self]
+      while queue.size > 0
+        node = queue.shift
+        if node.nil?
+          arr.push('#')
+        else
+          arr.push(node.val)
+        end
+        queue.push(node.left) unless node.nil?
+        queue.push(node.right) unless node.nil?
       end
 
-      def serilaized
-        arr = [self.val]
-        stack = [self]
-        while stack.size > 0
-          arr_tmp = []
-          node = stack.pop
-          [node.right, node.left].each do |x|
-            if x.nil?
-              arr_tmp.push('#')
-            else
-              arr_tmp.push(x.val)
-              stack.push(x)
-            end
-          end
-          arr.concat(arr_tmp.reverse)
+      # remove last '#'
+      while arr.last == '#'
+        arr.pop
+      end
+      '{' + arr.join(', ') + '}'
+    end
+
+    def self.deserialize(str)
+      arr = str.scan(/\d+|#/).collect do |x|
+        if x == '#'
+          nil
+        else
+          x.to_i
         end
-        # remove last '#'
-        while arr.last == '#'
-          arr.pop
+      end
+      target = TreeNode.new(arr[0])
+      root = target
+      i = 1
+      queue = [target]
+      while queue.size > 0
+        node = queue.shift
+        unless arr[i].nil?
+          node.left = TreeNode.new(arr[i])
+          queue.push(node.left)
         end
-        '{' + arr.join(', ') + '}'
+        unless arr[i + 1].nil?
+          node.right = TreeNode.new(arr[i + 1])
+          queue.push(node.right)
+        end
+        i += 2
       end
 
 
-      def self.deserialize(str)
-        arr = str.scan(/\d+|#/).collect { |x|
-          if x == '#' then
-            nil
-          else
-            x.to_i
-          end }
-        target = TreeNode.new(arr[0])
-        root = target
-        i = 1
-        stack = [target]
-        while i < arr.length
-          target = stack.pop
-          unless arr[i].nil?
-            target.left = TreeNode.new(arr[i])
-          end
-          unless arr[i + 1].nil?
-            target.right = TreeNode.new(arr[i + 1])
-          end
-          i += 2
-          stack.push(target.right) unless target.right.nil?
-          stack.push(target.left) unless target.left.nil?
-        end
-        root
-      end
+      root
+    end
   end
 end

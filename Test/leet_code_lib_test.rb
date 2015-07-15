@@ -10,12 +10,27 @@ class MyTest < Test::Unit::TestCase
   end
 
   def test_tree_serilaized
-    tree = Leet_Lib::TreeNode.new(1, nil, Leet_Lib::TreeNode.new(2, Leet_Lib::TreeNode.new(3), nil))
+    tree = Leet_Lib::TreeNode.new(
+        1,
+        nil,
+        Leet_Lib::TreeNode.new(
+            2,
+            Leet_Lib::TreeNode.new(3),
+            nil))
     assert_equal('{1, #, 2, 3}', tree.serilaized)
   end
 
   def test_tree_serilaized2
-    tree = Leet_Lib::TreeNode.new(1, Leet_Lib::TreeNode.new(2), Leet_Lib::TreeNode.new(3, Leet_Lib::TreeNode.new(4, nil, Leet_Lib::TreeNode.new(5)), nil))
+    tree = Leet_Lib::TreeNode.new(
+        1,
+        Leet_Lib::TreeNode.new(2),
+        Leet_Lib::TreeNode.new(
+            3,
+            Leet_Lib::TreeNode.new(
+                4,
+                nil,
+                Leet_Lib::TreeNode.new(5)),
+            nil))
     assert_equal('{1, 2, 3, #, #, 4, #, #, 5}', tree.serilaized)
   end
 
@@ -36,7 +51,7 @@ class MyTest < Test::Unit::TestCase
             Leet_Lib::TreeNode.new(7),
             Leet_Lib::TreeNode.new(9))
     )
-    assert_equal('{6, 2, 8, 0, 4, #, #, 3, 5, #, #, #, #, 7, 9}', tree.serilaized)
+    assert_equal('{6, 2, 8, 0, 4, 7, 9, #, #, 3, 5}', tree.serilaized)
   end
 
   def test_tree_deserilaized
