@@ -75,7 +75,7 @@ module Leet_Lib
     end
 
     def self.deserialize(str)
-      arr = str.scan(/\d+|#/).collect do |x|
+      arr = str.scan(/[+|-]?\d+|#/).collect do |x|
         if x == '#'
           nil
         else
