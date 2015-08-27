@@ -10,7 +10,7 @@ class MyTest < Test::Unit::TestCase
   end
 
   def test_1
-    assert_equal('()()()', @obj.parse_arr([0, 1, 0, 1, 0, 1]))
+    assert_equal(['()'], @obj.generate_parenthesis(1))
   end
 
   # Called after every test method runs. Can be used to tear
